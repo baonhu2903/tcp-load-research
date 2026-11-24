@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# --- He dieu hanh / IDE ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- File tam sinh ra khi chay thi nghiem ---
+experiments/raw-data/**/*_ready.txt
+experiments/raw-data/smoke/
+experiments/raw-data/thu-tay/
+
+# LUU Y: KHONG ignore experiments/raw-data/ va experiments/figures/
+# vi du lieu tho + bieu do la san pham phai nop theo de bai.

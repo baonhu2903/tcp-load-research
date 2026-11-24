@@ -1,0 +1,142 @@
+{
+  "run_id": "c10_r3",
+  "config": {
+    "run_id": "c10_r3",
+    "host": "127.0.0.1",
+    "port": 55883,
+    "clients": 10,
+    "payload_size": 1024,
+    "warmup_seconds": 5.0,
+    "measure_seconds": 20.0,
+    "socket_timeout_s": 5.0,
+    "measure_start_unix": 1795453250.3639112,
+    "measure_end_unix": 1795453270.3639112,
+    "wall_seconds": 26.001,
+    "started_at": "2026-11-24 00:00:44",
+    "percentile_method": "nearest-rank: idx = ceil(p/100*n)-1"
+  },
+  "requests_sent_all_phases": 892209,
+  "requests_ok_all_phases": 892209,
+  "requests_measured": 718797,
+  "requests_ok": 718797,
+  "requests_error": 0,
+  "error_rate": 0.0,
+  "throughput_rps": 35939.85,
+  "goodput_mbps": 294.4192512,
+  "latency_us": {
+    "avg": 274.2039703838497,
+    "stdev": 626.1832712629027,
+    "min": 28.3,
+    "p50": 226.0,
+    "p90": 439.0,
+    "p95": 527.4,
+    "p99": 767.0,
+    "max": 43555.2
+  },
+  "latency_ms": {
+    "avg": 0.2742039703838497,
+    "p95": 0.5274,
+    "p99": 0.767
+  },
+  "errors_by_reason": {},
+  "per_client": [
+    {
+      "client_id": 1,
+      "sent": 89495,
+      "ok": 89495,
+      "measured": 72036,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 2,
+      "sent": 89239,
+      "ok": 89239,
+      "measured": 71955,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 3,
+      "sent": 89206,
+      "ok": 89206,
+      "measured": 71888,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 4,
+      "sent": 88779,
+      "ok": 88779,
+      "measured": 71435,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 5,
+      "sent": 89167,
+      "ok": 89167,
+      "measured": 71916,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 6,
+      "sent": 89284,
+      "ok": 89284,
+      "measured": 71904,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 7,
+      "sent": 89104,
+      "ok": 89104,
+      "measured": 71801,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 8,
+      "sent": 89432,
+      "ok": 89432,
+      "measured": 72103,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 9,
+      "sent": 89107,
+      "ok": 89107,
+      "measured": 71739,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 10,
+      "sent": 89396,
+      "ok": 89396,
+      "measured": 72020,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    }
+  ],
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 26 Model 36 Stepping 0, AuthenticAMD",
+    "cpu_count_logical": 24
+  },
+  "raw_file": "c10_r3_requests.csv.gz",
+  "raw_rows": 718797
+}

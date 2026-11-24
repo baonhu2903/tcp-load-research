@@ -1,0 +1,61 @@
+{
+  "run_id": "c1_r1",
+  "config": {
+    "run_id": "c1_r1",
+    "host": "127.0.0.1",
+    "port": 54923,
+    "clients": 1,
+    "payload_size": 1024,
+    "warmup_seconds": 5.0,
+    "measure_seconds": 20.0,
+    "socket_timeout_s": 5.0,
+    "measure_start_unix": 1795453078.9438255,
+    "measure_end_unix": 1795453098.9438255,
+    "wall_seconds": 26.0,
+    "started_at": "2026-11-23 23:57:52",
+    "percentile_method": "nearest-rank: idx = ceil(p/100*n)-1"
+  },
+  "requests_sent_all_phases": 461355,
+  "requests_ok_all_phases": 461355,
+  "requests_measured": 337998,
+  "requests_ok": 337998,
+  "requests_error": 0,
+  "error_rate": 0.0,
+  "throughput_rps": 16899.9,
+  "goodput_mbps": 138.4439808,
+  "latency_us": {
+    "avg": 55.81163645938734,
+    "stdev": 346.7739105182047,
+    "min": 22.0,
+    "p50": 29.4,
+    "p90": 103.7,
+    "p95": 145.8,
+    "p99": 257.0,
+    "max": 56319.4
+  },
+  "latency_ms": {
+    "avg": 0.05581163645938734,
+    "p95": 0.1458,
+    "p99": 0.257
+  },
+  "errors_by_reason": {},
+  "per_client": [
+    {
+      "client_id": 1,
+      "sent": 461355,
+      "ok": 461355,
+      "measured": 337998,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    }
+  ],
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 26 Model 36 Stepping 0, AuthenticAMD",
+    "cpu_count_logical": 24
+  },
+  "raw_file": "c1_r1_requests.csv.gz",
+  "raw_rows": 337998
+}

@@ -1,0 +1,13 @@
+{
+  "uptime_s": 29.797,
+  "conn_accepted": 10,
+  "conn_active": 0,
+  "conn_closed_clean": 10,
+  "conn_closed_abrupt": 0,
+  "conn_timeout": 0,
+  "requests_ok": 892209,
+  "requests_invalid": 0,
+  "bytes_in": 913622016,
+  "bytes_out": 913622016,
+  "errors": {}
+}

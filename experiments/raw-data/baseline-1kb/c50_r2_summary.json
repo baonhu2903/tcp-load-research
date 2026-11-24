@@ -1,0 +1,502 @@
+{
+  "run_id": "c50_r2",
+  "config": {
+    "run_id": "c50_r2",
+    "host": "127.0.0.1",
+    "port": 52306,
+    "clients": 50,
+    "payload_size": 1024,
+    "warmup_seconds": 5.0,
+    "measure_seconds": 20.0,
+    "socket_timeout_s": 5.0,
+    "measure_start_unix": 1795453320.8752592,
+    "measure_end_unix": 1795453340.8752592,
+    "wall_seconds": 26.006,
+    "started_at": "2026-11-24 00:01:54",
+    "percentile_method": "nearest-rank: idx = ceil(p/100*n)-1"
+  },
+  "requests_sent_all_phases": 692920,
+  "requests_ok_all_phases": 692920,
+  "requests_measured": 514537,
+  "requests_ok": 514537,
+  "requests_error": 0,
+  "error_rate": 0.0,
+  "throughput_rps": 25726.85,
+  "goodput_mbps": 210.7543552,
+  "latency_us": {
+    "avg": 1937.976000754076,
+    "stdev": 2660.695376223014,
+    "min": 47.1,
+    "p50": 1511.9,
+    "p90": 3421.1,
+    "p95": 4244.9,
+    "p99": 8509.5,
+    "max": 118762.4
+  },
+  "latency_ms": {
+    "avg": 1.937976000754076,
+    "p95": 4.2448999999999995,
+    "p99": 8.5095
+  },
+  "errors_by_reason": {},
+  "per_client": [
+    {
+      "client_id": 1,
+      "sent": 14019,
+      "ok": 14019,
+      "measured": 10450,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 2,
+      "sent": 13859,
+      "ok": 13859,
+      "measured": 10289,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 3,
+      "sent": 13860,
+      "ok": 13860,
+      "measured": 10280,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 4,
+      "sent": 13928,
+      "ok": 13928,
+      "measured": 10309,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 5,
+      "sent": 13913,
+      "ok": 13913,
+      "measured": 10315,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 6,
+      "sent": 13937,
+      "ok": 13937,
+      "measured": 10371,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 7,
+      "sent": 13765,
+      "ok": 13765,
+      "measured": 10198,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 8,
+      "sent": 13858,
+      "ok": 13858,
+      "measured": 10304,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 9,
+      "sent": 13906,
+      "ok": 13906,
+      "measured": 10329,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 10,
+      "sent": 14047,
+      "ok": 14047,
+      "measured": 10426,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 11,
+      "sent": 13818,
+      "ok": 13818,
+      "measured": 10206,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 12,
+      "sent": 13904,
+      "ok": 13904,
+      "measured": 10282,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 13,
+      "sent": 13997,
+      "ok": 13997,
+      "measured": 10440,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 14,
+      "sent": 13905,
+      "ok": 13905,
+      "measured": 10321,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 15,
+      "sent": 13763,
+      "ok": 13763,
+      "measured": 10165,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 16,
+      "sent": 13841,
+      "ok": 13841,
+      "measured": 10292,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 17,
+      "sent": 13799,
+      "ok": 13799,
+      "measured": 10237,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 18,
+      "sent": 13703,
+      "ok": 13703,
+      "measured": 10135,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 19,
+      "sent": 13808,
+      "ok": 13808,
+      "measured": 10200,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 20,
+      "sent": 13848,
+      "ok": 13848,
+      "measured": 10299,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 21,
+      "sent": 13884,
+      "ok": 13884,
+      "measured": 10332,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 22,
+      "sent": 13815,
+      "ok": 13815,
+      "measured": 10293,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 23,
+      "sent": 13936,
+      "ok": 13936,
+      "measured": 10344,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 24,
+      "sent": 13912,
+      "ok": 13912,
+      "measured": 10356,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 25,
+      "sent": 13737,
+      "ok": 13737,
+      "measured": 10190,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 26,
+      "sent": 13876,
+      "ok": 13876,
+      "measured": 10316,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 27,
+      "sent": 13865,
+      "ok": 13865,
+      "measured": 10304,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 28,
+      "sent": 13838,
+      "ok": 13838,
+      "measured": 10260,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 29,
+      "sent": 13809,
+      "ok": 13809,
+      "measured": 10215,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 30,
+      "sent": 13915,
+      "ok": 13915,
+      "measured": 10302,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 31,
+      "sent": 13960,
+      "ok": 13960,
+      "measured": 10392,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 32,
+      "sent": 13956,
+      "ok": 13956,
+      "measured": 10359,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 33,
+      "sent": 13808,
+      "ok": 13808,
+      "measured": 10268,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 34,
+      "sent": 13918,
+      "ok": 13918,
+      "measured": 10389,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 35,
+      "sent": 13864,
+      "ok": 13864,
+      "measured": 10326,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 36,
+      "sent": 13778,
+      "ok": 13778,
+      "measured": 10198,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 37,
+      "sent": 13883,
+      "ok": 13883,
+      "measured": 10265,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 38,
+      "sent": 13879,
+      "ok": 13879,
+      "measured": 10346,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 39,
+      "sent": 13795,
+      "ok": 13795,
+      "measured": 10275,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 40,
+      "sent": 13854,
+      "ok": 13854,
+      "measured": 10248,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 41,
+      "sent": 13786,
+      "ok": 13786,
+      "measured": 10221,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 42,
+      "sent": 13769,
+      "ok": 13769,
+      "measured": 10235,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 43,
+      "sent": 13861,
+      "ok": 13861,
+      "measured": 10336,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 44,
+      "sent": 13825,
+      "ok": 13825,
+      "measured": 10285,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 45,
+      "sent": 13787,
+      "ok": 13787,
+      "measured": 10264,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 46,
+      "sent": 13847,
+      "ok": 13847,
+      "measured": 10298,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 47,
+      "sent": 13795,
+      "ok": 13795,
+      "measured": 10271,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 48,
+      "sent": 13831,
+      "ok": 13831,
+      "measured": 10272,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 49,
+      "sent": 13701,
+      "ok": 13701,
+      "measured": 10186,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    },
+    {
+      "client_id": 50,
+      "sent": 13958,
+      "ok": 13958,
+      "measured": 10343,
+      "measured_errors": 0,
+      "connects": 1,
+      "errors": {}
+    }
+  ],
+  "environment": {
+    "python": "3.13.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 26 Model 36 Stepping 0, AuthenticAMD",
+    "cpu_count_logical": 24
+  },
+  "raw_file": "c50_r2_requests.csv.gz",
+  "raw_rows": 514537
+}

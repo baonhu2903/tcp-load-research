@@ -1,0 +1,4 @@
+# Server va load generator KHONG can thu vien ngoai nao (chi dung thu vien chuan).
+# Hai goi duoi day chi phuc vu DO CPU va VE BIEU DO; thieu chung chuong trinh van chay.
+psutil>=5.9        # do CPU/RAM cua process Server
+matplotlib>=3.5    # ve bieu do PNG trong experiments/figures/
