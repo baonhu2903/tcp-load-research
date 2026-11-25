@@ -1,0 +1,23 @@
+{
+  "name": "baseline-1kb",
+  "description": "Kich ban chinh: payload 1 KB, warm-up 5s, do 20s, 3 lan lap moi muc Client.",
+  "client_levels": [1, 10, 50],
+  "repetitions": 3,
+  "cooldown_seconds": 5,
+  "cpu_sample_interval": 0.5,
+  "server": {
+    "host": "127.0.0.1",
+    "max_workers": 128,
+    "backlog": 512,
+    "idle_timeout": 30,
+    "stats_interval": 0,
+    "log_level": "WARNING"
+  },
+  "load": {
+    "payload_size": 1024,
+    "warmup": 5,
+    "duration": 20,
+    "timeout": 5,
+    "reconnect": 5
+  }
+}
