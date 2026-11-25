@@ -1,0 +1,64 @@
+run_id,kiem_tra,tinh_lai_tu_du_lieu_tho,trong_summary,ket_qua
+c10_r1,C1 so request thanh cong,642112,642112,DAT
+c10_r1,C2 throughput (req/s),32105.6,32105.6,DAT
+c10_r1,C3 error rate,0.0,0.0,DAT
+c10_r1,C4 so request loi,0,0,DAT
+c10_r1,C5 latency trung binh (us),307.6862288821888,307.6862288821888,DAT
+c10_r1,C6 p95 latency (us),594.6,594.6,DAT
+c10_r1,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c10_r2,C1 so request thanh cong,724533,724533,DAT
+c10_r2,C2 throughput (req/s),36226.65,36226.65,DAT
+c10_r2,C3 error rate,0.0,0.0,DAT
+c10_r2,C4 so request loi,0,0,DAT
+c10_r2,C5 latency trung binh (us),272.8323337929397,272.8323337929397,DAT
+c10_r2,C6 p95 latency (us),505.7,505.7,DAT
+c10_r2,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c10_r3,C1 so request thanh cong,769912,769912,DAT
+c10_r3,C2 throughput (req/s),38495.6,38495.6,DAT
+c10_r3,C3 error rate,0.0,0.0,DAT
+c10_r3,C4 so request loi,0,0,DAT
+c10_r3,C5 latency trung binh (us),256.83561562879913,256.83561562879913,DAT
+c10_r3,C6 p95 latency (us),468.1,468.1,DAT
+c10_r3,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c1_r1,C1 so request thanh cong,280735,280735,DAT
+c1_r1,C2 throughput (req/s),14036.75,14036.75,DAT
+c1_r1,C3 error rate,0.0,0.0,DAT
+c1_r1,C4 so request loi,0,0,DAT
+c1_r1,C5 latency trung binh (us),68.04964112062977,68.04964112062977,DAT
+c1_r1,C6 p95 latency (us),151.4,151.4,DAT
+c1_r1,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c1_r2,C1 so request thanh cong,304721,304721,DAT
+c1_r2,C2 throughput (req/s),15236.05,15236.05,DAT
+c1_r2,C3 error rate,0.0,0.0,DAT
+c1_r2,C4 so request loi,0,0,DAT
+c1_r2,C5 latency trung binh (us),62.738120116434374,62.738120116434374,DAT
+c1_r2,C6 p95 latency (us),141.6,141.6,DAT
+c1_r2,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c1_r3,C1 so request thanh cong,318032,318032,DAT
+c1_r3,C2 throughput (req/s),15901.6,15901.6,DAT
+c1_r3,C3 error rate,0.0,0.0,DAT
+c1_r3,C4 so request loi,0,0,DAT
+c1_r3,C5 latency trung binh (us),60.136385961161146,60.136385961161146,DAT
+c1_r3,C6 p95 latency (us),130.4,130.4,DAT
+c1_r3,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c50_r1,C1 so request thanh cong,633223,633223,DAT
+c50_r1,C2 throughput (req/s),31661.15,31661.15,DAT
+c50_r1,C3 error rate,0.0,0.0,DAT
+c50_r1,C4 so request loi,0,0,DAT
+c50_r1,C5 latency trung binh (us),1575.6054590562883,1575.6054590562883,DAT
+c50_r1,C6 p95 latency (us),3310.6,3310.6,DAT
+c50_r1,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c50_r2,C1 so request thanh cong,621619,621619,DAT
+c50_r2,C2 throughput (req/s),31080.95,31080.95,DAT
+c50_r2,C3 error rate,0.0,0.0,DAT
+c50_r2,C4 so request loi,0,0,DAT
+c50_r2,C5 latency trung binh (us),1605.000945273552,1605.000945273552,DAT
+c50_r2,C6 p95 latency (us),3337.6,3337.6,DAT
+c50_r2,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
+c50_r3,C1 so request thanh cong,693228,693228,DAT
+c50_r3,C2 throughput (req/s),34661.4,34661.4,DAT
+c50_r3,C3 error rate,0.0,0.0,DAT
+c50_r3,C4 so request loi,0,0,DAT
+c50_r3,C5 latency trung binh (us),1439.3179697011662,1439.3179697011662,DAT
+c50_r3,C6 p95 latency (us),2912.1,2912.1,DAT
+c50_r3,C7 request_id duy nhat (so bi trung: 0),0,0,DAT
