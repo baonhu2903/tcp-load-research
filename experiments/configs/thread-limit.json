@@ -1,0 +1,23 @@
+{
+  "name": "thread-limit-16workers",
+  "description": "Kich ban phu (tuy chon): giu nguyen moi thu, chi ha thread pool xuong 16 worker de thay gioi han cua mo hinh khi so Client > so worker.",
+  "client_levels": [1, 10, 50],
+  "repetitions": 3,
+  "cooldown_seconds": 5,
+  "cpu_sample_interval": 0.5,
+  "server": {
+    "host": "127.0.0.1",
+    "max_workers": 16,
+    "backlog": 512,
+    "idle_timeout": 30,
+    "stats_interval": 0,
+    "log_level": "WARNING"
+  },
+  "load": {
+    "payload_size": 1024,
+    "warmup": 5,
+    "duration": 20,
+    "timeout": 5,
+    "reconnect": 5
+  }
+}
